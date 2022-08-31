@@ -1,4 +1,4 @@
-// write your code here
+// inits
 const url="http://localhost:3000/images/"; 
 const btn= document.getElementById('like-button'); 
 let likesCount = document.getElementById('like-count'); 
@@ -18,7 +18,7 @@ function init(){
 document.addEventListener('DOMContentLoaded', init);
 
 
-
+// method for posting data to the UI
 function getData(id){
 
     //create a fetch request
